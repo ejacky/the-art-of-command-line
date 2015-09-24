@@ -72,6 +72,12 @@
 - 在 Bash 中，可以使用 **Tab** 自动补全参数，使用 **ctrl-r** 搜索命令行历史。
 
 - 在 Bash 中，使用 **ctrl-w** 删除你键入的最后一个单词，使用 **ctrl-u** 删除整行，使用 **alt-b** 和 **alt-f** 按单词移动，使用 **ctrl-k** 从光标处删除到行尾，使用 **ctrl-l** 清屏。键入 `man readline` 查看 Bash 中的默认快捷键，内容很多。例如 **alt-.** 循环地移向前一个参数，以及 **alt-*** 展开通配符。
+```bash
+    ctrl + w
+    ctrl + u
+    ctrl + k
+    ctrl + i
+```
 
 - 你喜欢的话，可以键入 `set -o vi` 来使用 vi 风格的快捷键。
 
